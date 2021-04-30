@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>株式会社AJD</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/header_nav.css">
+  <link rel="stylesheet" href="../css/subPageHeader.css">
+  <link rel="stylesheet" href="../css/contact.css">
+  <link rel="stylesheet" href="../css/footer.css">
+</head>
+<body>
+  <!--  header  -->
+  <header>
+    <div class="wrapper">
+      <div class="header_menu" id="navArea">
+        <nav>
+          <div class="inner">
+            <ul>
+              <li><a href="top.html">TOP</a></li>
+              <li><a href="camInfo.html">会社案内</a></li>
+              <li><a href="jobDes.html">業務内容</a></li>
+              <li><a href="works.html">施工事例</a></li>
+              <li><a href="rec.html">採用情報</a></li>
+              <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+          </div>
+        </nav>
+        
+        <div class="content">
+          <section>
+            <div class="btn-trigger toggle_btn" id="btn08">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </section>
+        </div>
+  
+        <div id="mask"></div>
+      </div>
+
+
+      <div class="header_cont">
+        <table border="0">
+          <tr>
+            <td><div class="logo_mark" style="background-image: url(../img/logo/ajdLogo.png);"></div></td>
+            <td class="logo_name tsuku_a_bold">株式会社AJD</td>
+          </tr>
+        </table>
+        <div class="pageTitle">
+          <div class="hiragino en_pageTitle">Contact</div>
+          <div class="tsuku_a opacity_75 ja_pageTitle">お問い合わせ</div>
+        </div>
+      </div>
+      <div class="background_black_5"></div>
+    </div>
+  </header>
+  <!-- header end  -->
+
+  <!--  main  -->
+  <main>
+    <div class="con_wrapper">
+      <div class="hiragino opacity_65 mt-5 mb-5 con_text">株式会社AJDへのお問い合わせは、以下のフォームに<br>
+        ご入力頂きまして「送信」ボタンを押してください。<br>
+        株式会社AJDでは、お客様からご提供いただく個人情<br>
+        報を、プライバシーポリシーに準じ、細心の注意を<br>
+        払って取り扱います。</div>
+      <div class="conForm">
+        <div class="mb-4 form-floating">
+          <input type="email" class="form-control form-control-lg" id="name" placeholder="お名前" required>
+          <label for="name" class="form-label">お名前</label>
+        </div>
+        <div class="mb-4 form-floating">
+          <input type="email" class="form-control form-control-lg" id="name2" placeholder="ふりがな" required>
+          <label for="name2" class="form-label">ふりがな</label>
+        </div>
+        <div class="mb-4 form-floating">
+          <input type="email" class="form-control form-control-lg" id="email" placeholder="name@mail.com" required>
+          <label for="email" class="form-label">メールアドレス</label>
+        </div>
+        <div class="mb-4 form-floating">
+          <input type="email" class="form-control form-control-lg" id="companyName" placeholder="会社名">
+          <label for="companyName" class="form-label">会社名</label>
+        </div>
+        <div class="mb-4 form-floating">
+          <input type="email" class="form-control form-control-lg" id="departmentName" placeholder="部署名">
+          <label for="departmentName" class="form-label">部署名</label>
+        </div>
+        <div class="mb-4 form-floating">
+          <input type="email" class="form-control form-control-lg" id="phone" placeholder="電話番号">
+          <label for="phone" class="form-label">電話番号</label>
+        </div>
+        <div class="mb-4 form-floating">
+          <input type="email" class="form-control form-control-lg" id="post" placeholder="郵便番号">
+          <label for="post" class="form-label">郵便番号</label>
+        </div>
+        <select class="form-select form-control-lg mb-4" aria-label="Default select example">
+          <option selected id="todohu" value="tokyo">東京</option>
+          <option value="kanagawa">神奈川</option>
+          <option value="osaka">大阪</option>
+          <option value="hokkaido">北海道</option>
+          <option value="okinawa">沖縄</option>
+        </select>
+        <div class="mb-4 form-floating">
+          <input type="email" class="form-control form-control-lg" id="address" placeholder="郵便番号">
+          <label for="address" class="form-label">ご住所</label>
+        </div>
+        <div class="mb-4 form-floating">
+          <input type="email" class="form-control form-control-lg" id="building" placeholder="マンション・ビル名" required>
+          <label for="building" class="form-label">マンション・ビル名</label>
+        </div>
+        <div class="form-check mb-4">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+          <label class="form-check-label" for="invalidCheck2">
+            上記内容にて送信しますので、よろしければチェックを入れてください。
+          </label>
+        </div>
+        <button class="btn btn-primary mb-5" type="submit">送信<i class="fas fa-angle-right"></i></button>
+      </div>
+    </div>
+    <div class="conInfo">
+      <div class="hiragino_w6 info_title mgn_btm_32 mgn_top_32">個人情報保護方針</div>
+      <div class="hiragino_w6 info_comName mgn_btm_32 con_text">株式会社　AJD [本社 / 総務部]　　〒xxx-xxxx 〇〇県 〇〇市 〇〇</div>
+      <div class="hiragino_w6 info_concept mgn_btm_32 con_text">個人情報保護方針について<br>
+        株式会社AJDでは、個人情報の重要性を認識し、<br>以下の取り組みを実施いたしております。<br>
+        1. 個人情報に関しては適用される法令、規範を遵守します。<br>
+        2. 利用目的の範囲内で取り扱います。<br>
+        3. 個人情報を取り扱うにあたり、損失、漏洩等がない様、適切に管理します。
+      </div>
+    </div>
+
+  </main>
+  <!--  main end  -->
+
+  <!-- footer  -->
+  <footer class="footer_wrapper">
+    <table border="0" class="footer_logo_margin">
+      <tr>
+        <td><div class="logo_mark_2" style="background-image: url(../img/logo/ajdLogo.png);"></div></td>
+        <td class="logo_name tsuku_a_bold footer_logo">株式会社AJD</td>
+        <td>
+          <div class="footer_p">
+            <p>Tel:<span>00-0000-0000</span></p>
+            <p>営業時間:<span>9:00 ~ 18:00</span></p>
+            <p>定休日:<span>日曜日</span></p>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <dev class="footer_nav">
+      <div class="footer_item tsuku_b_bold"><a href="top.html">TOP</a></div>
+      <div class="footer_item tsuku_b_bold"><a href="camInfo.html">会社案内</a></div>
+      <div class="footer_item tsuku_b_bold"><a href="jobDes.html">業務内容</a></div>
+      <div class="footer_item tsuku_b_bold"><a href="works.html">施工事例</a></div>
+      <div class="footer_item tsuku_b_bold"><a href="rec.html">採用情報</a></div>
+      <div class="footer_btn"><a href="contact.html" class="btn btn-flat"><span class="hiragino">お問い合わせ</span></a></div>
+    </dev>
+    <p>
+      <small>
+        <span style="font-family:'Times New Roman', 'Times';">&copy;</span><span class="copyItem">2021</span> AJD All Right Reserved.
+      </small>
+    </p>
+  </footer>
+  <!-- footer end  -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+<script src="../js/index.js"></script>
+
+</body>
+</html>
