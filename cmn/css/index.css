@@ -1,0 +1,278 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  letter-spacing: 0.2rem;
+}
+
+body, h1, p, td, ul, ol {
+  margin: 0px;
+  padding: 0px;
+}
+
+ol, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+/*  font  */
+.tsuku_a {
+  font-family: 'Tsukushi A Round Gothic', sans-serif;
+  font-weight: normal;
+}
+
+.tsuku_a_bold {
+  font-family: 'Tsukushi A Round Gothic', sans-serif;
+  font-weight: bold;
+}
+
+.tsuku_b{
+  font-family: 'Tsukushi B Round Gothic', sans-serif;
+  font-weight: normal;
+}
+
+.tsuku_b_bold {
+  font-family: 'Tsukushi B Round Gothic', sans-serif;
+  font-weight: bold;
+}
+
+.hiragino {
+  font-family: "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", serif;
+  font-weight: normal;
+}
+
+/*  font end  */
+
+/*  opacity  */
+.opacity_50 {
+  opacity: 0.5;
+}
+
+.opacity_65 {
+  opacity: 0.65;
+}
+
+.opacity_75 {
+  opacity: 0.75;
+}
+
+.opacity_80 {
+  opacity: 0.8;
+}
+
+.opacity_90 {
+  opacity: 0.9;
+}
+/*  opacity end  */
+
+/*  background_black */
+.background_black_5 {
+  height: 355px;
+  width: 100%;
+  background-color: rgb( 0, 0, 0, 0.5);
+  position: absolute;
+  top: 45px;
+  left: 0;
+}
+
+.background_black_3 {
+  height: 95px;
+  width: 100%;
+  background-color: rgb( 0, 0, 0, 0.3);
+}
+
+.background_black_2 {
+  height: 280px;
+  width: 100%;
+  background-color: rgb( 0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/*  background_black end  */
+
+/*  background_white  */
+.background_white {
+  height: 71.5rem;
+  width: 100%;
+  background-color: rgb( 255, 255, 255, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/*  background_white end  */
+
+
+
+/*  btn  */
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn-flat {
+  overflow: hidden;
+  padding: 1.5rem 6rem;
+  color: #fff;
+  border-radius: 0;
+  background: #000;
+}
+
+a.btn-flat span {
+  position: relative;
+}
+
+a.btn-flat:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-96%);
+  transform: translateX(-96%);
+  background: #619DFD;
+}
+
+a.btn-flat:hover:before {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+}
+/* btn end */
+
+/*  border  */
+.main_border {
+  position: relative;
+	height: 1px;
+	border-width: 0;
+	background-image: -webkit-linear-gradient(left,
+	transparent 0%,#283593 50%,transparent 100%);
+	background-image:         linear-gradient(90deg,
+	transparent 0%,#283593 50%,transparent 100%);
+}
+
+
+/*  logo  */
+.logo_img {
+  vertical-align: bottom;
+}
+
+.logo_name {
+  transform: translateY(5.5px);
+  vertical-align: bottom;
+  padding-left: 1.6rem;
+  letter-spacing: 0 !important;
+  color: black !important;
+}
+
+.logo_mark {
+  height: 4.2rem;
+  width: 4.2rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo_mark_2 {
+  height: 5.9rem;
+  width: 5.9rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*  logo end  */
+
+
+/*  header  */
+header .logo_name {
+  font-size: 2.5rem;
+  letter-spacing: 0 !important;
+}
+/*  header end  */
+
+/*  media  */
+@media (min-width: 768px) {
+  /*  header  */
+  .header_menu {
+    height: 0 !important;
+    width: inherit !important;
+    display: inherit !important;
+    position: inherit !important;
+    background-color: rgb( 0, 0, 0, 0) !important;
+  }
+  nav {
+    width: inherit !important;
+    height: 5rem;
+    font-family: "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", serif;
+    font-weight: 10;
+    position: absolute !important;
+    background-color: rgb( 0, 0, 0, 0) !important;
+    opacity: 1 !important;
+    left: 0 !important;
+    overflow-x: inherit !important;
+    overflow-y: inherit !important;
+    background-color: rgb( 0, 0, 0, 0) !important;
+  }
+  nav .inner {
+    padding: 0 !important;
+  }
+  .btn-trigger span {
+    height: 0 !important;
+  }
+  nav .inner ul li {
+    border-bottom: 0 !important;
+    margin: 0 auto !important;
+    position: inherit !important;
+  }
+  nav .inner ul li a {
+    font-size: 2rem !important;
+    font-weight: bold !important;
+    z-index: 100 !important;
+    padding: 0 !important;
+  }
+  nav .inner ul li a:hover {
+    background-color: rgb( 0, 0, 0, 0) !important;
+    border-bottom: dashed 1px !important;
+  }
+  nav .inner ul {
+    display: flex;
+    padding: 1rem !important;
+  }
+  header .background_black_5 {
+    height: 40rem !important;
+    top: 0 !important;
+  }
+  /*  header end  */
+
+  /*  footer  */
+
+  /*  footer end  */
+}
