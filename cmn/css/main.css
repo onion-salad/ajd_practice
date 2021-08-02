@@ -357,6 +357,7 @@ main .ja_title {
   flex-direction: column;
   justify-items: center;
   align-items: center;
+  width: 100%;
 }
 
 .works_margin {
