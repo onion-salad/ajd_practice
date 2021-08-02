@@ -365,6 +365,7 @@ main .ja_title {
 
 .works_cont > p {
   font-size: 1.9rem;
+  text-align: center;
 }
 
 .works_cont a {
